@@ -48,7 +48,8 @@ The following results were reproduced in `prediction.ipynb` from a fresh validat
 
 | Model | F1 | Precision | Recall | Balanced Accuracy | ROC AUC |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `HistGradientBoosting` | **0.845** | 0.826 | **0.870** | **0.877** | **0.953** |
+| `HistGradientBoosting` | **0.848** | **0.830** | **0.872** | **0.881** | **0.953** |
+| `RandomForest` | 0.839 | 0.826 | 0.852 | 0.870 | 0.940 |
 | `Baseline: current status persists` | 0.832 | 0.832 | 0.832 | 0.863 | 0.863 |
 | `Logistic Regression` | 0.802 | 0.795 | 0.835 | 0.855 | 0.932 |
 
